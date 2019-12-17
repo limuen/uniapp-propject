@@ -1,0 +1,166 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "ArriveGuide",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/commoditySearch/commoditySearch",
+            "style": {
+                "navigationBarTitleText": "商品搜索"
+            }
+        },
+        {
+            "path": "pages/confirmOrder/confirmOrder",
+            "style": {
+                "navigationBarTitleText": "确认订单"
+            }
+        },
+        {
+            "path": "pages/commodityDetail/commodityDetail",
+            "style": {
+                "navigationBarTitleText": "商品详情"
+            }
+        },
+        {
+            "path": "pages/bill/bill",
+            "style": {
+                "navigationBarTitleText": "充值账单"
+            }
+        },
+        {
+            "path": "pages/my/my",
+            "style": {
+                "navigationBarTitleText": "个人中心"
+            }
+        },
+        {
+            "path": "pages/myOrder/myOrder",
+            "style": {
+                "navigationBarTitleText": "我的订单"
+            }
+        },
+        {
+            "path": "pages/invoice/invoice",
+            "style": {
+                "navigationBarTitleText": "发票管理"
+            }
+        },
+
+        {
+            "path": "pages/registered/registered",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "手机号登录"
+            }
+        },
+        {
+            "path": "pages/addressList/addressList",
+            "style": {
+                "navigationBarTitleText": "地址管理"
+            }
+        },
+        {
+            "path": "pages/shoppingCart/shoppingCart",
+            "style": {
+                "navigationBarTitleText": "购物车"
+            }
+        },
+        {
+            "path": "pages/warehouseDetail/warehouseDetail",
+            "style": {
+                "navigationBarTitleText": "仓库详情"
+            }
+        },
+        {
+            "path": "pages/addAddress/addAddress",
+            "style": {
+                "navigationBarTitleText": "新增地址"
+            }
+        },
+
+        {
+            "path": "pages/addInvoice/addInvoice",
+            "style": {
+                "navigationBarTitleText": "新增发票"
+            }
+        },
+        {
+            "path": "pages/inStock/inStock",
+            "style": {
+                "navigationBarTitleText": "库存分类"
+            }
+        },
+        {
+            "path": "pages/commodityList/commodityList",
+            "style": {
+                "navigationBarTitleText": "类别"
+            }
+        },
+        {
+            "path": "pages/notice/notice",
+            "style": {
+                "navigationBarTitleText": "公告"
+            }
+        },
+        {
+            "path": "pages/orderDetail/orderDetail",
+            "style": {
+                "navigationBarTitleText": "订单详情"
+            }
+        },
+        {
+            "path": "pages/delivery/delivery",
+            "style": {
+                "navigationBarTitleText": "快递信息"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#6DABFF",
+        "backgroundColor": "#F8F8F8",
+		"navigationStyle": "default"
+    },
+    "tabBar": {
+        "color": "#C1C0C9",
+        "selectedColor": "#6DABFF",
+        "backgroundColor": "#fff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/Home.png",
+                "selectedIconPath": "static/selectedHome.png"
+            },
+            {
+                "pagePath": "pages/inStock/inStock",
+                "text": "库存",
+                "iconPath": "static/inStock.png",
+                "selectedIconPath": "static/selectedInStock.png"
+            },
+            {
+                "pagePath": "pages/bill/bill",
+                "text": "账单",
+                "iconPath": "static/bill.png",
+                "selectedIconPath": "static/selectedBill.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "static/my.png",
+                "selectedIconPath": "static/selectedMy.png"
+            }
+        ]
+    }
+}
